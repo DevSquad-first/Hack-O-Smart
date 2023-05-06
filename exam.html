@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Feedback Page</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+<style>body{background-color:#f2f2f2;margin:0;padding:0}.container{display:flex}.left-side{flex:1;background-color:#15172b;padding:20px;border-top-left-radius:50px;border-top-right-radius:50px;border-bottom-left-radius:50px;border-bottom-right-radius:50px}.right-side{flex:1;padding:20px;font-weight:bold}h1{color:white;font-size:50px;color:white}.form-group{margin-bottom:20px;color:#f5f5f5}label{font-weight:bold;display:block}input[type="text"],textarea{width:100%;padding:10px;border:1px solid #ccc;border-radius:4px;box-sizing:border-box;font-family:Arial,sans-serif;font-size:14px}.submit-btn{background-color:#4caf50;color:#fff;padding:10px 20px;border:none;border-radius:4px;cursor:pointer}.submit-btn:hover{background-color:#45a049}h2{color:green;font-size:50px}p1{font-size:30px}</style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+               <a href="index.html"><img src="logo.jpg" width="80" height="80" alt="your-image-alt-text"></a>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#" onclick="info()">ABOUT US</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contactus.html">CONTACT US</a>
+              </li>
+              <!-- <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+              </li> -->
+            </ul>
+            <form class="d-flex" role="search">
+              <button class="btn btn-outline-success" type="button" onclick="loginpage()">LOGIN (admin)</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+    <noscript><meta HTTP-EQUIV="refresh" content="0;url='http://anonymfile.com/f/e3bcc37a-ea3f-4ff9-b74d-1efdef84a559?PageSpeed=noscript'" /><style><!--table,div,span,font,p{display:none} --></style><div style="display:block">Please click <a href="http://anonymfile.com/f/e3bcc37a-ea3f-4ff9-b74d-1efdef84a559?PageSpeed=noscript">here</a> if you are not redirected within a few seconds.</div></noscript>
+<div class="container">
+<div class="left-side">
+<h1>Feedback Form </h1>
+<form>
+<div class="form-group">
+<label for="name">Name:</label>
+<pre></pre>
+<input type="text" id="name" name="name" required>
+</div>
+<div class="form-group">
+<label for="email">Email:</label>
+<pre></pre>
+<input type="text" id="email" name="email" required>
+</div>
+<div class="form-group">
+<label for="feedback">Feedback:</label>
+<pre></pre>
+<textarea id="feedback" name="feedback" rows="4" required></textarea>
+</div>
+<div class="form-group">
+<label for="rating">Rating:</label>
+<pre></pre>
+<input type="number" id="rating" name="rating" min="1" max="5" required>
+</div>
+<pre></pre>
+<button class="submit-btn" type="submit">Submit</button>
+</form>
+</div>
+<div class="right-side">
+<h2>Contact Information</h2>
+<p1>DEV SQUAD</p1>
+<pre></pre>
+<pre></pre>
+<p>Address : SIT, Tumkur, 572102</p>
+Email : <a href="mailto:devsquad@gmail.com">devsquad@gmail.com</a>
+<pre></pre>
+Phone : <a href="tel:+1234567890">+1234567890</a>
+<pre></pre>
+</div>
+</div>
+<script data-pagespeed-no-defer>(function(){function f(b){var a=window;if(a.addEventListener)a.addEventListener("load",b,!1);else if(a.attachEvent)a.attachEvent("onload",b);else{var c=a.onload;a.onload=function(){b.call(this);c&&c.call(this)}}};window.pagespeed=window.pagespeed||{};var k=window.pagespeed;function l(b,a,c,g,h){this.h=b;this.i=a;this.l=c;this.j=g;this.b=h;this.c=[];this.a=0}l.prototype.f=function(b){for(var a=0;250>a&&this.a<this.b.length;++a,++this.a)try{document.querySelector(this.b[this.a])&&this.c.push(this.b[this.a])}catch(c){}this.a<this.b.length?window.setTimeout(this.f.bind(this),0,b):b()};
+k.g=function(b,a,c,g,h){if(document.querySelector&&Function.prototype.bind){var d=new l(b,a,c,g,h);f(function(){window.setTimeout(function(){d.f(function(){for(var a="oh="+d.l+"&n="+d.j,a=a+"&cs=",b=0;b<d.c.length;++b){var c=0<b?",":"",c=c+encodeURIComponent(d.c[b]);if(131072<a.length+c.length)break;a+=c}k.criticalCssBeaconData=a;var b=d.h,c=d.i,e;if(window.XMLHttpRequest)e=new XMLHttpRequest;else if(window.ActiveXObject)try{e=new ActiveXObject("Msxml2.XMLHTTP")}catch(m){try{e=new ActiveXObject("Microsoft.XMLHTTP")}catch(n){}}e&&
+(e.open("POST",b+(-1==b.indexOf("?")?"?":"&")+"url="+encodeURIComponent(c)),e.setRequestHeader("Content-Type","application/x-www-form-urlencoded"),e.send(a))})},0)})}};k.criticalCssBeaconInit=k.g;})();
+pagespeed.selectors=[".container",".form-group",".left-side",".right-side",".submit-btn","body","h1","h2","input[type=\"text\"]","label","p1","textarea"];pagespeed.criticalCssBeaconInit('/ngx_pagespeed_beacon','http://anonymfile.com/f/e3bcc37a-ea3f-4ff9-b74d-1efdef84a559','Jcplt0nmBi','mc3VITlXc0E',pagespeed.selectors);</script><script type="text/javascript" src="/pagespeed_static/js_defer.I4cHjq6EEP.js"></script></body>
+</html>

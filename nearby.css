@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Poly&display=swap');
+*{
+    font-family: 'Poly', serif;
+}
+
+
+.nearby{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.ButtonContainer{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    place-content: space-evenly;
+    font-size: 25px;
+    border: none    ;
+}
+
+.options{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}

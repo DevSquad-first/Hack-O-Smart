@@ -1,0 +1,30 @@
+.cards1
+{
+    margin: 0;
+    display: flex;
+    justify-content:center;
+    gap: 3em;
+    margin-top: 120px;
+}
+
+
+
+
+ .card-img-top
+{
+    
+    height: 200px;
+} 
+
+.card-text
+{
+    height: 120px;
+}
+
+.heading
+{
+    text-align: center;
+    padding-top:20px;
+    display: flex;
+    justify-content: center;
+}
